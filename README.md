@@ -6,6 +6,7 @@ Simple light control through Arduino Nano - ESP8266 WebServer
 
 | Command | Params | Description |
 |-|-|-|
+| AT |-|Verify if chip is connected and responding|
 | AT+RST |-|Restart the module|
 | AT+CWMODE=\<mode> | 1 = Sta, 2 = AP, 3 = both | Change WiFi Mode |
 | AT+CWJAP=\<ssid>,\<pwd> | ssd = ssd, pwd = wifi password | Connect to AP |
